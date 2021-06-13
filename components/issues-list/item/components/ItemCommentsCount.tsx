@@ -1,3 +1,4 @@
+import { breakpoints } from 'components/theme';
 import { GoComment } from 'react-icons/go';
 import styled from 'styled-components';
 import { useItem } from './';
@@ -20,10 +21,14 @@ export const ItemCommentsCount: React.FC = () => {
 
 const Wrapper = styled.div`
 	padding-block: 0.25rem;
-	display: flex;
+	display: none;
 	font-size: 1.25rem;
 	color: var(--color-secondary);
 	align-items: center;
+
+	@media ${breakpoints.md} {
+		display: flex;
+	}
 `;
 
 const Count = styled.span`

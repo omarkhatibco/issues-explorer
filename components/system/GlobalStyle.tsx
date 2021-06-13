@@ -56,4 +56,12 @@ export const GlobalStyle = createGlobalStyle`
     height:100%;
     min-height: 100vh;
   }
-`;
+
+  @keyframes animation-skeleton {
+    from{
+      background:var(--color-gray);
+    }
+    to{
+      background:var(--color-border);
+    }
+}`;

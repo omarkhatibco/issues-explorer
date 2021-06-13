@@ -40,12 +40,13 @@ export const useIssuesSearch = () => {
 	});
 
 	const issueCounts = data?.search?.issueCount || previousData?.search?.issueCount || 0;
-
 	const totalPages = Math.ceil(issueCounts / PERPAGE);
+
 	return {
 		items: data?.search?.nodes || [],
 		isLoading,
 		isError: Boolean(error),
-		totalPages
+		totalPages,
+		perPage: PERPAGE
 	};
 };

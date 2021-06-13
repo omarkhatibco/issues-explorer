@@ -5,13 +5,13 @@ export const useQueryParam = (
 	key: string,
 	defaultValue?: string
 ): string | string[] | undefined => {
-	const router = useRouter();
+	const { asPath } = useRouter();
 
 	const value = useMemo(() => {
-		const res = router.asPath.match(new RegExp('[?&]' + key + '=([^&#]*)')) || [];
+		const res = asPath.match(new RegExp('[?&]' + key + '=([^&#]*)')) || [];
 
 		return res[1];
-	}, [router.asPath]);
+	}, [asPath]);
 
 	return value ? decodeURIComponent(value) : defaultValue;
 };

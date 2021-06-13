@@ -1,3 +1,4 @@
+import { breakpoints } from 'components/theme';
 import { useIssuesSearch, useUpdateQueryParam } from 'hooks';
 import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
 import { usePagination } from 'react-pagination-hook';
@@ -30,6 +31,7 @@ export const IssuePagnation: React.FC = () => {
 
 								return (
 									<Button
+										className='pageNumber'
 										key={key}
 										type='button'
 										onClick={onClick}
@@ -44,7 +46,7 @@ export const IssuePagnation: React.FC = () => {
 							return (
 								<Button key={key} type='button' disabled={props.isDisabled} onClick={onClick}>
 									{props.type === 'previous' ? <GoChevronLeft /> : null}
-									{props.type === 'next' ? 'Next' : 'Previous'}
+									<span>{props.type === 'next' ? 'Next' : 'Previous'}</span>
 									{props.type === 'next' ? <GoChevronRight /> : null}
 								</Button>
 							);
@@ -94,13 +96,31 @@ const Button = styled.button<{ isActive?: boolean }>`
 		cursor: default;
 		color: ${({ isActive }) => (isActive ? 'var(--color-white)' : 'var(--color-border)')};
 	}
+
+	& > span {
+		display: none;
+		@media ${breakpoints.md} {
+			display: inline;
+		}
+	}
+
+	&.pageNumber {
+		display: none;
+		@media ${breakpoints.md} {
+			display: inline-flex;
+		}
+	}
 `;
 
 const Ellipsis = styled.span`
 	line-height: 1;
 	padding: 0.5rem;
 	line-height: 1;
-	display: inline-flex;
+	display: none;
 	font-size: 1rem;
 	margin-inline: 0.5rem;
+
+	@media ${breakpoints.md} {
+		display: inline-flex;
+	}
 `;

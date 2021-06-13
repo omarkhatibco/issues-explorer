@@ -26,7 +26,7 @@ export const useUpdateQueryParams = (): ((newQuery: NewQuery) => void) => {
 			query
 		};
 
-		push(opts, undefined, { scroll: false });
+		push(opts, undefined, { scroll: true });
 	};
 
 	return updateQuery;

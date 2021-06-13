@@ -1,7 +1,7 @@
 import { useQueryParam, useUpdateQueryParams } from 'hooks';
 import styled from 'styled-components';
 
-export const StatusFilter: React.FC = () => {
+const StatusFilter: React.FC = () => {
 	const status = useQueryParam('status', 'open');
 	const updateQuery = useUpdateQueryParams();
 
@@ -59,3 +59,5 @@ const Button = styled.button<{ isActive: boolean }>`
 		cursor: default;
 	}
 `;
+
+export default StatusFilter;

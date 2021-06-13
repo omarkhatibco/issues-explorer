@@ -1,3 +1,4 @@
+import { breakpoints } from 'components/theme';
 import styled from 'styled-components';
 import { IssueState } from 'types';
 import { getFontColorFromBackground, getIsoDateAsRelative, getIsoDateAsString } from 'utls';
@@ -97,9 +98,15 @@ const LabelsWrapper = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-
 	& > *:not(:last-child) {
-		margin-inline-end: 0.25rem;
+		margin-block-end: 0.25rem;
+	}
+
+	@media ${breakpoints.md} {
+		& > *:not(:last-child) {
+			margin-block-end: 0;
+			margin-inline-end: 0.25rem;
+		}
 	}
 `;
 

@@ -13,13 +13,13 @@ export const ItemStatus: React.FC = () => {
 
 	const isOpen = state === IssueState['OPEN'];
 	return (
-		<Wapper isOpen={isOpen} title={ICONTITLE?.[state]}>
+		<Wrapper isOpen={isOpen} title={ICONTITLE?.[state]}>
 			{isOpen ? <GoIssueOpened /> : <GoIssueClosed />}
-		</Wapper>
+		</Wrapper>
 	);
 };
 
-const Wapper = styled.div<{ isOpen: boolean }>`
+const Wrapper = styled.div<{ isOpen: boolean }>`
 	color: ${({ isOpen }) => `var(--color-${isOpen ? 'danger' : 'success'})`};
 	font-size: 1.25rem;
 	padding-block: 0.25rem;
