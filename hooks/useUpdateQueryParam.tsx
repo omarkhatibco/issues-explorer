@@ -17,7 +17,6 @@ export const useUpdateQueryParam = (
 			...originalQueryParams,
 			[name]: value
 		});
-		console.log(query);
 
 		if (dequal(query, originalQuery)) {
 			return;

@@ -1,16 +1,20 @@
-import { useUpdateQueryParam } from 'hooks';
+import { useQueryParam, useUpdateQueryParams } from 'hooks';
 import { useState } from 'react';
 import { useDebounce } from 'react-use';
 import styled from 'styled-components';
 
 export const InputSearch: React.FC = () => {
-	const [search, setSearch] = useUpdateQueryParam('q');
+	const search = useQueryParam('q');
+	const updateQuery = useUpdateQueryParams();
 	const [value, setValue] = useState(search || '');
 
 	useDebounce(
 		() => {
 			if (search !== value) {
-				setSearch(value);
+				updateQuery({
+					q: value,
+					page: '1'
+				});
 			}
 		},
 		2000,
@@ -19,7 +23,6 @@ export const InputSearch: React.FC = () => {
 
 	const onInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setValue(e.target.value);
-		console.log('here');
 	};
 
 	return (
@@ -35,10 +38,22 @@ export const InputSearch: React.FC = () => {
 	);
 };
 
-const Wrapper = styled.form`
+const Wrapper = styled.div`
 	flex: 1;
 `;
+
 const Input = styled.input`
 	flex: 1;
 	width: 100%;
+	padding-inline: 0.5rem;
+	padding-block: 0.5rem;
+	font-size: 1rem;
+	border-radius: 0.25em;
+	border: 2px solid var(--color-border);
+	appearance: none;
+
+	&:focus-visible {
+		outline: none;
+		border-color: var(--color-link);
+	}
 `;
