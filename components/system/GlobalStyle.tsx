@@ -12,9 +12,15 @@ export const GlobalStyle = createGlobalStyle`
 
   :root {
     /* Colors */
-    --main-bg-color : #e7e7e7;
-    --flikr-color-primary : #0063dc;
-    --flikr-color-secondery : #ff0084;
+    --color-white : #fff;
+    --color-black : #292929;
+    --color-primary : #24292e;
+    --color-secondary : #586069;
+    --color-gray : #f6f8fa;
+    --color-border : #ebedef;
+    --color-link : #0366d6;
+    --color-success : #22863a;
+    --color-danger : #cb2431;
 
     /* Font-Sizes */
     --body-font-size: 1rem;
@@ -27,16 +33,15 @@ export const GlobalStyle = createGlobalStyle`
     --breakpoint-xl: 1280px;
 
     /* others */
-    --transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    --transition: all 0.3s ease-in-out;
   }
   
   body {
-    background-color: var(--main-bg-color);
     width: 100%;
     height:100%;
     min-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
+    color : var(--color-black);
   }
 
   .__next {

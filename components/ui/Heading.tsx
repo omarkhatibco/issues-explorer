@@ -5,7 +5,7 @@ export const Heading = styled.h1`
 	font-weight: bold;
 	text-align: center;
 	line-height: 1;
-	color: var(--flikr-color-primary);
+	color: var(--color-black);
 	font-size: 1.5rem;
 	margin-block-end: 2rem;
 
