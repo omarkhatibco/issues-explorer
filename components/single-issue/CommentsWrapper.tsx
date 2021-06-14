@@ -43,4 +43,7 @@ const Aside = styled.aside`
 	display: none;
 	width: 25%;
 	height: 100%;
+	@media ${breakpoints.md} {
+		display: block;
+	}
 `;
