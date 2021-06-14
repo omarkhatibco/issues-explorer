@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 	padding: 1rem;
 	display: flex;
 
-	border-top: 1px solid var(--color-border);
+	border-bottom: 1px solid var(--color-border);
 	background-color: var(--color-gray);
 	border-top-right-radius: 0.5em;
 	border-top-left-radius: 0.5em;

@@ -1,12 +1,12 @@
 import { breakpoints } from 'components/theme';
+import { useIssue } from 'context';
 import { GoComment } from 'react-icons/go';
 import styled from 'styled-components';
-import { useItem } from './';
 
 export const ItemCommentsCount: React.FC = () => {
 	const {
 		comments: { totalCount }
-	} = useItem();
+	} = useIssue();
 
 	if (!totalCount || totalCount === 0) {
 		return null;

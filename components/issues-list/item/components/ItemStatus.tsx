@@ -1,7 +1,7 @@
+import { useIssue } from 'context';
 import { GoIssueClosed, GoIssueOpened } from 'react-icons/go';
 import styled from 'styled-components';
 import { IssueState } from 'types';
-import { useItem } from './';
 
 const ICONTITLE = {
 	OPEN: 'Open issue',
@@ -9,7 +9,7 @@ const ICONTITLE = {
 };
 
 export const ItemStatus: React.FC = () => {
-	const { state } = useItem();
+	const { state } = useIssue();
 
 	const isOpen = state === IssueState['OPEN'];
 	return (

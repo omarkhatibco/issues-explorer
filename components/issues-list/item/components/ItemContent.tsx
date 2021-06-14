@@ -1,15 +1,15 @@
 import { breakpoints } from 'components/theme';
+import { useIssue } from 'context';
 import styled from 'styled-components';
 import { IssueState } from 'types';
 import { getFontColorFromBackground, getIsoDateAsRelative, getIsoDateAsString } from 'utls';
-import { useItem } from './';
 
 export const ItemContent: React.FC = () => {
 	const {
 		title,
 		number,
 		author: { login }
-	} = useItem();
+	} = useIssue();
 	return (
 		<Wrapper>
 			<TitleWrapper>
@@ -30,7 +30,7 @@ export const ItemContent: React.FC = () => {
 const Labels: React.FC = () => {
 	const {
 		labels: { totalCount, nodes }
-	} = useItem();
+	} = useIssue();
 
 	if (totalCount === 0) {
 		return null;
@@ -50,7 +50,7 @@ const Labels: React.FC = () => {
 };
 
 const CreatedInfo: React.FC = () => {
-	const { createdAt, state } = useItem();
+	const { createdAt, state } = useIssue();
 
 	if (state === IssueState['CLOSED']) {
 		return null;
@@ -68,7 +68,7 @@ const CreatedInfo: React.FC = () => {
 };
 
 const ClosedInfo: React.FC = () => {
-	const { closedAt, state } = useItem();
+	const { closedAt, state } = useIssue();
 
 	if (state === IssueState['OPEN']) {
 		return null;

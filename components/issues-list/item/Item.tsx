@@ -1,18 +1,22 @@
+import { IssueContext } from 'context';
+import Link from 'next/link';
 import styled from 'styled-components';
 import { Issue } from 'types';
-import { ItemCommentsCount, ItemContent, ItemContext, ItemStatus } from './components';
+import { ItemCommentsCount, ItemContent, ItemStatus } from './components';
 
 export const Item: React.FC<Issue> = props => {
 	return (
-		<ItemContext.Provider value={props}>
-			<Wrapper role='group'>
-				<Article>
-					<ItemStatus />
-					<ItemContent />
-					<ItemCommentsCount />
-				</Article>
-			</Wrapper>
-		</ItemContext.Provider>
+		<IssueContext.Provider value={props}>
+			<Link href={`/${props.number}`}>
+				<Wrapper role='group'>
+					<Article>
+						<ItemStatus />
+						<ItemContent />
+						<ItemCommentsCount />
+					</Article>
+				</Wrapper>
+			</Link>
+		</IssueContext.Provider>
 	);
 };
 

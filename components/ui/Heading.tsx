@@ -8,6 +8,12 @@ export const Heading = styled.h1`
 	color: var(--color-black);
 	font-size: 1.5rem;
 	margin-block-end: 2rem;
+	cursor: pointer;
+	transition: var(--transition);
+
+	&:hover {
+		color: var(--color-link);
+	}
 
 	@media ${breakpoints.md} {
 		font-size: 1.5rem;
