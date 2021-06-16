@@ -31,7 +31,7 @@ export const InputSearch: React.FC = () => {
 				type='search'
 				name='search'
 				placeholder='Search Issues'
-				value={value?.replaceAll('+', ' ')}
+				value={value?.replace(/+/g, ' ')}
 				onChange={onInputChange}
 			/>
 		</Wrapper>
