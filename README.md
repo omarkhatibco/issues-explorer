@@ -39,11 +39,3 @@ npm run test:gui
 # or
 yarn test:gui
 ```
-
-## Todos
-
-- [ ] setup apollo
-- [ ] Fetch issues
-- [ ] fetch single issue
-- [ ] Search Bar.
-- [ ] validation for form.

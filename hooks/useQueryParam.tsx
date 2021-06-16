@@ -1,10 +1,7 @@
 import { useRouter } from 'next/router';
 import { useMemo } from 'react';
 
-export const useQueryParam = (
-	key: string,
-	defaultValue?: string
-): string | string[] | undefined => {
+export const useQueryParam = (key: string, defaultValue?: string): string | undefined => {
 	const { asPath } = useRouter();
 
 	const value = useMemo(() => {

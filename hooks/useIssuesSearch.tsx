@@ -1,7 +1,7 @@
 import { useQuery } from '@apollo/client';
 import { useQueryParam } from 'hooks';
 import { ISSUESSEARCH } from 'queries';
-import { IssuesSearch } from 'types';
+import { Issue, IssuesSearch } from 'types';
 import { PERPAGE, REPOSITORY_NAME, REPOSITORY_OWNER } from 'utls';
 
 interface QueryResponse {
@@ -14,7 +14,15 @@ interface QueryVariables {
 	first: number;
 }
 
-export const useIssuesSearch = () => {
+interface UserIssuesSearch {
+	items: Issue[];
+	isLoading: boolean;
+	isError: boolean;
+	totalPages: number;
+	perPage: number;
+}
+
+export const useIssuesSearch = (): UserIssuesSearch => {
 	const page = useQueryParam('page', '1');
 	const search = useQueryParam('q');
 	const status = useQueryParam('status', 'open');
@@ -22,7 +30,7 @@ export const useIssuesSearch = () => {
 	const query = [
 		`repo:${REPOSITORY_OWNER}/${REPOSITORY_NAME}`,
 		'is:issue',
-		...(search ? [`${search} in:title,body`] : []),
+		...(search ? [`${search?.replaceAll('+', ' ')} in:title,body`] : []),
 		`is:${status}`
 	];
 
