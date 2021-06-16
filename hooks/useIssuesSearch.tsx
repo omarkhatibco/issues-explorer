@@ -30,7 +30,7 @@ export const useIssuesSearch = (): UserIssuesSearch => {
 	const query = [
 		`repo:${REPOSITORY_OWNER}/${REPOSITORY_NAME}`,
 		'is:issue',
-		...(search ? [`${search?.replace(/+/g, ' ')} in:title,body`] : []),
+		...(search ? [`${search?.replace(/\+/g, ' ')} in:title,body`] : []),
 		`is:${status}`
 	];
 
