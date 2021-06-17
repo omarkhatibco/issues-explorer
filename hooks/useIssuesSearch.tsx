@@ -1,12 +1,9 @@
+import React from 'react';
 import { useQuery } from '@apollo/client';
 import { useQueryParam } from 'hooks';
 import { ISSUESSEARCH } from 'queries';
-import { Issue, IssuesSearch } from 'types';
+import { Issue, SearchQueryResponse } from 'types';
 import { PERPAGE, REPOSITORY_NAME, REPOSITORY_OWNER } from 'utls';
-
-interface QueryResponse {
-	search: IssuesSearch;
-}
 
 interface QueryVariables {
 	query: string;
@@ -39,7 +36,7 @@ export const useIssuesSearch = (): UserIssuesSearch => {
 		previousData,
 		loading: isLoading,
 		error
-	} = useQuery<QueryResponse, QueryVariables>(ISSUESSEARCH, {
+	} = useQuery<SearchQueryResponse, QueryVariables>(ISSUESSEARCH, {
 		variables: {
 			first: PERPAGE,
 			query: query.join(' '),

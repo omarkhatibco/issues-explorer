@@ -4,14 +4,8 @@ import { IssueContext } from 'context';
 import client from 'libs/apollo';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { ISSUE } from 'queries';
-import { Issue } from 'types';
+import { Issue, RepositoryQueryResponse } from 'types';
 import { REPOSITORY_NAME, REPOSITORY_OWNER } from 'utls';
-
-interface QueryResponse {
-	repository: {
-		issue: Issue;
-	};
-}
 
 interface QueryVariables {
 	owner: string;
@@ -35,7 +29,7 @@ const Page: NextPage<{ issue: Issue }> = ({ issue }) => {
 export const getStaticProps: GetStaticProps = async context => {
 	const { number } = context?.params || {};
 	try {
-		const { data } = await client.query<QueryResponse, QueryVariables>({
+		const { data } = await client.query<RepositoryQueryResponse, QueryVariables>({
 			query: ISSUE,
 			variables: {
 				owner: REPOSITORY_OWNER,
@@ -43,6 +37,7 @@ export const getStaticProps: GetStaticProps = async context => {
 				number: Number(number)
 			}
 		});
+
 		const {
 			repository: { issue }
 		} = data;

@@ -32,7 +32,7 @@ export const getIsoDateAsRelative = (dateString: string, locale = 'en-US'): stri
 
 	const date = new Date(dateString).getTime();
 
-	let duration = (date - new Date().getTime()) / 1000;
+	let duration = (date - Date.now()) / 1000;
 	for (let i = 0; i <= DIVISIONS.length; i++) {
 		const division = DIVISIONS[i];
 		if (Math.abs(duration) < division.amount) {

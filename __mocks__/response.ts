@@ -1,119 +1,374 @@
-export const response = {
-	photos: {
-		page: 1,
-		pages: 112,
-		perpage: 9,
-		total: 1000,
-		photo: [
-			{
-				id: '51216731072',
-				owner: '154328131@N02',
-				secret: '68ecdb3913',
-				server: '65535',
-				farm: 66,
-				title: 'IMG_0489.jpg',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'uniquephuket'
+import { SearchQueryResponse } from 'types';
+
+interface Response {
+	data: SearchQueryResponse;
+}
+
+export const response: Response = {
+	data: {
+		search: {
+			issueCount: 542,
+			pageInfo: {
+				hasNextPage: true,
+				hasPreviousPage: false,
+				__typename: 'PageInfo'
 			},
-			{
-				id: '51217447901',
-				owner: '191760464@N06',
-				secret: 'dc0bce84c2',
-				server: '65535',
-				farm: 66,
-				title: 'la mano di dio',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'nutmeg.xyz'
-			},
-			{
-				id: '51217448421',
-				owner: '187483687@N03',
-				secret: 'e246e57037',
-				server: '65535',
-				farm: 66,
-				title: 'Đậm đà, hấp dẫn với cách làm bánh đúc mặn đơn giản nhất',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'tuvaobep'
-			},
-			{
-				id: '51217448436',
-				owner: '92627420@N02',
-				secret: '256a86e348',
-				server: '65535',
-				farm: 66,
-				title: 'HBMX Practice',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'brc.photography'
-			},
-			{
-				id: '51217448506',
-				owner: '192970087@N06',
-				secret: '63a6fe19b5',
-				server: '65535',
-				farm: 66,
-				title: 'r127-018',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'betlong88'
-			},
-			{
-				id: '51217657473',
-				owner: '170170135@N07',
-				secret: '761edf805d',
-				server: '65535',
-				farm: 66,
-				title: '3N8A2888.jpg',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'Stenbocki maja'
-			},
-			{
-				id: '51217657983',
-				owner: '190879206@N03',
-				secret: '367730e903',
-				server: '65535',
-				farm: 66,
-				title: 'Markan und Nathan',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'tizazu.kebede'
-			},
-			{
-				id: '51218207549',
-				owner: '141740466@N06',
-				secret: '411a20216f',
-				server: '65535',
-				farm: 66,
-				title: 'IMG_20210601_101024',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'Jessica Jade Summers'
-			},
-			{
-				id: '51218515790',
-				owner: '192269080@N08',
-				secret: '04d551a21e',
-				server: '65535',
-				farm: 66,
-				title: 'wnHEL20W5G',
-				ispublic: 1,
-				isfriend: 0,
-				isfamily: 0,
-				ownername: 'ivan.orel.odesseo.ua'
-			}
-		]
-	},
-	stat: 'ok'
+			nodes: [
+				{
+					number: 21695,
+					title: '[DevTools Bug]: Long keys overlap',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-16T20:57:00Z',
+					comments: {
+						totalCount: 1,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'MinimumViablePerson',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 4,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWw3MTA1NzM1OTU=',
+								name: 'Component: Developer Tools',
+								color: 'fbca04',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw2MjAzNjg0MDc=',
+								name: 'Resolution: Needs More Information',
+								color: 'fffde7',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWwxNTU5ODQxNjA=',
+								name: 'Status: Unconfirmed',
+								color: 'd4c5f9',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw0MDkyOTE1MQ==',
+								name: 'Type: Bug',
+								color: 'b60205',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21693,
+					title: 'Allow customization of Dom validation',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-16T17:27:00Z',
+					comments: {
+						totalCount: 0,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'stevemk14ebr',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 1,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwxNTU5ODQxNjA=',
+								name: 'Status: Unconfirmed',
+								color: 'd4c5f9',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21692,
+					title: 'Bug: memory leak in useReducer',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-16T16:11:17Z',
+					comments: {
+						totalCount: 1,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'onnlucky',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 1,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwxNTU5ODQxNjA=',
+								name: 'Status: Unconfirmed',
+								color: 'd4c5f9',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21685,
+					title: 'Bug: Webpack process and setImmediate polyfill interferes with time slicing',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-15T17:07:37Z',
+					comments: {
+						totalCount: 0,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'gaearon',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 3,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwxMjA1MDg3MTI3',
+								name: 'Component: Concurrent Features',
+								color: 'ffccd3',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWwzMDc5MDUzOTE5',
+								name: 'React 18',
+								color: '26B0E4',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw0MDkyOTE1MQ==',
+								name: 'Type: Bug',
+								color: 'b60205',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21674,
+					title: 'React 18: react-router@v5 is breaking in the Strict Mode (strict effects)',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-14T03:43:07Z',
+					comments: {
+						totalCount: 5,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'Jack-Works',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 2,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwzMDc5MDUzOTE5',
+								name: 'React 18',
+								color: '26B0E4',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw3MTAzNzU3OTI=',
+								name: 'Type: Discussion',
+								color: 'fef2c0',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21668,
+					title: 'Question: Transition starvation in React 18?',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-12T10:25:53Z',
+					comments: {
+						totalCount: 0,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'Ephem',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 2,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwzMDc5MDUzOTE5',
+								name: 'React 18',
+								color: '26B0E4',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw3MTAzNzU3OTI=',
+								name: 'Type: Discussion',
+								color: 'fef2c0',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21664,
+					title: 'Feedback on startTransition/useTransition syntax',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-11T15:42:43Z',
+					comments: {
+						totalCount: 1,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'stefanhamburger',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 2,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwzMDc5MDUzOTE5',
+								name: 'React 18',
+								color: '26B0E4',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw3MTAzNzU3OTI=',
+								name: 'Type: Discussion',
+								color: 'fef2c0',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21662,
+					title: 'Concurrency / time-slicing by default',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-11T09:32:25Z',
+					comments: {
+						totalCount: 7,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'rybon',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 2,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwzMDc5MDUzOTE5',
+								name: 'React 18',
+								color: '26B0E4',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw3MTAzNzU3OTI=',
+								name: 'Type: Discussion',
+								color: 'fef2c0',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21645,
+					title: 'Backport releases on GitHub have incorrect tarballs',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-08T09:57:08Z',
+					comments: {
+						totalCount: 0,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'evoL',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 1,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWwxNTU5ODQxNjA=',
+								name: 'Status: Unconfirmed',
+								color: 'd4c5f9',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				},
+				{
+					number: 21636,
+					title:
+						'[DevTools Bug] Cannot add node "476" because a node with that id is already in the Store.',
+					state: 'OPEN',
+					closedAt: null,
+					createdAt: '2021-06-07T06:52:01Z',
+					comments: {
+						totalCount: 8,
+						__typename: 'IssueCommentConnection'
+					},
+					author: {
+						login: 'Bodyhealer',
+						__typename: 'User'
+					},
+					labels: {
+						totalCount: 4,
+						nodes: [
+							{
+								id: 'MDU6TGFiZWw3MTA1NzM1OTU=',
+								name: 'Component: Developer Tools',
+								color: 'fbca04',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw2MjAzNjg0MDc=',
+								name: 'Resolution: Needs More Information',
+								color: 'fffde7',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWwxNTU5ODQxNjA=',
+								name: 'Status: Unconfirmed',
+								color: 'd4c5f9',
+								__typename: 'Label'
+							},
+							{
+								id: 'MDU6TGFiZWw0MDkyOTE1MQ==',
+								name: 'Type: Bug',
+								color: 'b60205',
+								__typename: 'Label'
+							}
+						],
+						__typename: 'LabelConnection'
+					},
+					__typename: 'Issue'
+				}
+			],
+			__typename: 'SearchResultItemConnection'
+		}
+	}
 };

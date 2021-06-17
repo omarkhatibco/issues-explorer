@@ -53,3 +53,13 @@ export interface IssueComment {
 	createdAt: string;
 	author: Author;
 }
+
+export interface RepositoryQueryResponse {
+	repository: {
+		issue: Issue;
+	};
+}
+
+export interface SearchQueryResponse {
+	search: IssuesSearch;
+}

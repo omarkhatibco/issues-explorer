@@ -14,7 +14,7 @@ export const ItemCommentsCount: React.FC = () => {
 	return (
 		<Wrapper title={totalCount === 1 ? '1 comment' : `${totalCount} comments`}>
 			<GoComment />
-			<Count>{totalCount}</Count>
+			<Count data-testid='comments-count'>{totalCount}</Count>
 		</Wrapper>
 	);
 };

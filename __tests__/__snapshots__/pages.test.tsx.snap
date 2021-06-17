@@ -1,0 +1,1437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page should matches snapshot 1`] = `
+<div>
+  <main
+    class="Main-sc-148wae3-0 hYshnJ"
+  >
+    <div
+      class="Container-sc-15fg3j1-0 kpslDY"
+    >
+      <h1
+        class="Heading-sc-10qnvli-0 ixLndF"
+      >
+        React Issues Explorer
+      </h1>
+      <article>
+        <div
+          class="Heading__Wrapper-hrpz50-0 lcxWwO"
+        >
+          <h1
+            class="Heading__Title-hrpz50-1 cigYKr"
+          >
+            [DevTools Bug] Cannot add node "476" because a node with that id is already in the Store.
+             
+            <span
+              class="Heading__Number-hrpz50-2 oURtX"
+            >
+              #
+              21636
+            </span>
+          </h1>
+          <div
+            class="Heading__InfoWrapper-hrpz50-3 fTWFsJ"
+          >
+            <div
+              class="Heading__StatusWrapper-hrpz50-4 fXbzdX"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 14 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              <span>
+                Open
+              </span>
+            </div>
+            <p
+              class="Heading__Info-hrpz50-5 ljcWsZ"
+            >
+              <span>
+                Bodyhealer
+              </span>
+               opened this issue
+               
+              <time
+                datetime="2021-06-07T06:52:01Z"
+                title="6/7/2021, 8:52:01 AM"
+              >
+                last week
+              </time>
+               . 8 comments
+            </p>
+          </div>
+        </div>
+        <div
+          class="CommentsWrapper__Wrapper-mz8bai-0 fYsrdR"
+        >
+          <ul
+            class="CommentsWrapper__CommentsList-mz8bai-1 cnPTxm"
+          >
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="Bodyhealer"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/7447214?u=ab95174ef2cd1fb8163a463bd3f9d8b86cb5ad60&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    Bodyhealer
+                  </span>
+                   commented 
+                  last week
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <h3>
+                    Website or app
+                  </h3>
+                  
+
+                  <p>
+                    <a
+                      href="https://zhivika.ru/product/26406103_plastyr_perc_bperf_10smh18sm_n"
+                      rel="nofollow"
+                    >
+                      https://zhivika.ru/product/26406103_plastyr_perc_bperf_10smh18sm_n
+                    </a>
+                  </p>
+                  
+
+                  <h3>
+                    Repro steps
+                  </h3>
+                  
+
+                  <ol>
+                    
+
+                    <li>
+                      Load page.
+                    </li>
+                    
+
+                    <li>
+                      Open react components.
+                    </li>
+                    
+
+                    <li>
+                      Click button "Смотреть все аптеки" for unfold all list.
+                    </li>
+                    
+
+                  </ol>
+                  
+
+                  <h3>
+                    How often does this bug happen?
+                  </h3>
+                  
+
+                  <p>
+                    Every time
+                  </p>
+                  
+
+                  <h3>
+                    DevTools package (automated)
+                  </h3>
+                  
+
+                  <p>
+                    react-devtools-extensions
+                  </p>
+                  
+
+                  <h3>
+                    DevTools version (automated)
+                  </h3>
+                  
+
+                  <p>
+                    4.13.5-0ae5290b54
+                  </p>
+                  
+
+                  <h3>
+                    Error message (automated)
+                  </h3>
+                  
+
+                  <p>
+                    Cannot add node "476" because a node with that id is already in the Store.
+                  </p>
+                  
+
+                  <h3>
+                    Error call stack (automated)
+                  </h3>
+                  
+
+                  <p>
+                    <em>
+                      No response
+                    </em>
+                  </p>
+                  
+
+                  <h3>
+                    Error component stack (automated)
+                  </h3>
+                  
+
+                  <p>
+                    <em>
+                      No response
+                    </em>
+                  </p>
+                  
+
+                  <h3>
+                    GitHub query string (automated)
+                  </h3>
+                  
+
+                  <div
+                    class="snippet-clipboard-content position-relative"
+                    data-snippet-clipboard-copy-content="https://api.github.com/search/issues?q=Cannot add node  because a node with that id is already in the Store. in:title is:issue is:open is:public label:\\"Component: Developer Tools\\" repo:facebook/react
+"
+                  >
+                    <pre
+                      lang="text"
+                    >
+                      <code>
+                        https://api.github.com/search/issues?q=Cannot add node  because a node with that id is already in the Store. in:title is:issue is:open is:public label:"Component: Developer Tools" repo:facebook/react
+
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  last week
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    Hi 
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/Bodyhealer/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/Bodyhealer"
+                    >
+                      @Bodyhealer
+                    </a>
+                    . I'm no table to reproduce the error following the steps you've described.
+                  </p>
+                  
+
+                  <details
+                    class="details-reset border rounded-2"
+                    open=""
+                  >
+                    
+  
+                    <summary
+                      class="px-3 py-2 border-bottom"
+                    >
+                      
+    
+                      <svg
+                        aria-hidden="true"
+                        class="octicon octicon-device-camera-video"
+                        data-view-component="true"
+                        height="16"
+                        version="1.1"
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        
+    
+                        <path
+                          d="M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z"
+                          fill-rule="evenodd"
+                        />
+                        
+
+                      </svg>
+                      
+    
+                      <span
+                        aria-label="Video description bug-21636-repro-Kapture.2021-06-07.at.08.56.19.mp4"
+                        class="m-1"
+                      >
+                        bug-21636-repro-Kapture.2021-06-07.at.08.56.19.mp4
+                      </span>
+                      
+    
+                      <span
+                        class="dropdown-caret"
+                      />
+                      
+  
+                    </summary>
+                    
+
+  
+                    <video
+                      class="d-block rounded-bottom-2 width-fit"
+                      controls="controls"
+                      data-canonical-src="https://user-images.githubusercontent.com/29597/121020334-47ced780-c76e-11eb-8004-093dddedea3b.mp4"
+                      muted="muted"
+                      src="https://user-images.githubusercontent.com/29597/121020334-47ced780-c76e-11eb-8004-093dddedea3b.mp4"
+                      style="max-height:640px;"
+                    >
+                      
+
+  
+                    </video>
+                    
+
+                  </details>
+                  
+
+
+                  <p>
+                    Any suggestions?
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="rdcavanha"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/15946186?v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    rdcavanha
+                  </span>
+                   commented 
+                  2 days ago
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    I've got this error today as well on Firefox 89.
+                    <br />
+                    
+Adding to OP's report, this happens when refreshing the page while the dev console is open with the 
+                    <code>
+                      Components
+                    </code>
+                     tab shown (see screenshot). Not sure if it happens in other scenarios too.
+                  </p>
+                  
+
+                  <p>
+                    <a
+                      href="https://user-images.githubusercontent.com/15946186/121795165-8cca9200-cbe4-11eb-9f71-972ae97ee0b7.png"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="image"
+                        src="https://user-images.githubusercontent.com/15946186/121795165-8cca9200-cbe4-11eb-9f71-972ae97ee0b7.png"
+                        style="max-width:100%;"
+                      />
+                    </a>
+                  </p>
+                  
+
+                  <p>
+                    P.S.: Clicking on 
+                    <code>
+                      Dismiss
+                    </code>
+                     gets rid of the error and seems to show the components correctly again, but it shows up again if the page is refreshed.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  7 hours ago
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/rdcavanha/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/rdcavanha"
+                    >
+                      @rdcavanha
+                    </a>
+                     You're seeing this bug using OP's codebase? Or a different app?
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="rdcavanha"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/15946186?v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    rdcavanha
+                  </span>
+                   commented 
+                  39 minutes ago
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <blockquote>
+                    
+
+                    <p>
+                      <a
+                        class="user-mention"
+                        data-hovercard-type="user"
+                        data-hovercard-url="/users/rdcavanha/hovercard"
+                        data-octo-click="hovercard-link-click"
+                        data-octo-dimensions="link_type:self"
+                        href="https://github.com/rdcavanha"
+                      >
+                        @rdcavanha
+                      </a>
+                       You're seeing this bug using OP's codebase? Or a different app?
+                    </p>
+                    
+
+                  </blockquote>
+                  
+
+                  <p>
+                    Completely different app.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  in 15 hours
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/rdcavanha/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/rdcavanha"
+                    >
+                      @rdcavanha
+                    </a>
+                     Could you share your code then? 
+                    <em>
+                      I'm
+                    </em>
+                     still looking for a way to repro this issue.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="rdcavanha"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/15946186?v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    rdcavanha
+                  </span>
+                   commented 
+                  tomorrow
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/bvaughn/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/bvaughn"
+                    >
+                      @bvaughn
+                    </a>
+                     Sorry, I can't share the code as it is a private repo.
+                  </p>
+                  
+
+                  <p>
+                    However, I've noticed that after I refreshed my Firefox profile the issue seems to be gone. I've tried using the React extension on the same app as before and was unable to reproduce the bug again.
+                  </p>
+                  
+
+                  <p>
+                    This leads me to believe that it's probably some sort of conflict with another extension (just a guess). Unfortunately I can't say which one exactly as I no longer have all the extensions installed due to the profile refresh. The fact that this has very low occurrence seems to support this idea of extension conflict as well.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  in 2 days
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    Thanks for the extra info.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="Romej"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/41510224?u=1f9529391466592d46e9c71b7a2141dd9cded5b9&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    Romej
+                  </span>
+                   commented 
+                  in 2 days
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    [Win10 64-bit] [Firefox 89.0]
+                    <br />
+                    
+Got the issue today, you may be able to replicate it with the following steps :
+                  </p>
+                  
+
+                  <ol>
+                    
+
+                    <li>
+                      If the React devtools extension is installed, uninstall it
+                    </li>
+                    
+
+                    <li>
+                      Go on a web page that uses React and open the Firefox devtools
+                    </li>
+                    
+
+                    <li>
+                      In a new/different tab, install the React devtools extension
+                    </li>
+                    
+
+                    <li>
+                      Keep the Firefox devtools opened and refresh your page (CTRL + F5)
+                    </li>
+                    
+
+                    <li>
+                      Go to the Components tab
+                    </li>
+                    
+
+                  </ol>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <aside
+            class="CommentsWrapper__Aside-mz8bai-2 cfjbTi"
+          />
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Issue Page should matches snapshot 1`] = `
+<div>
+  <main
+    class="Main-sc-148wae3-0 hYshnJ"
+  >
+    <div
+      class="Container-sc-15fg3j1-0 kpslDY"
+    >
+      <h1
+        class="Heading-sc-10qnvli-0 ixLndF"
+      >
+        React Issues Explorer
+      </h1>
+      <article>
+        <div
+          class="Heading__Wrapper-hrpz50-0 lcxWwO"
+        >
+          <h1
+            class="Heading__Title-hrpz50-1 cigYKr"
+          >
+            [DevTools Bug] Cannot add node "476" because a node with that id is already in the Store.
+             
+            <span
+              class="Heading__Number-hrpz50-2 oURtX"
+            >
+              #
+              21636
+            </span>
+          </h1>
+          <div
+            class="Heading__InfoWrapper-hrpz50-3 fTWFsJ"
+          >
+            <div
+              class="Heading__StatusWrapper-hrpz50-4 fXbzdX"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 14 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              <span>
+                Open
+              </span>
+            </div>
+            <p
+              class="Heading__Info-hrpz50-5 ljcWsZ"
+            >
+              <span>
+                Bodyhealer
+              </span>
+               opened this issue
+               
+              <time
+                datetime="2021-06-07T06:52:01Z"
+                title="6/7/2021, 8:52:01 AM"
+              >
+                last week
+              </time>
+               . 8 comments
+            </p>
+          </div>
+        </div>
+        <div
+          class="CommentsWrapper__Wrapper-mz8bai-0 fYsrdR"
+        >
+          <ul
+            class="CommentsWrapper__CommentsList-mz8bai-1 cnPTxm"
+          >
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="Bodyhealer"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/7447214?u=ab95174ef2cd1fb8163a463bd3f9d8b86cb5ad60&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    Bodyhealer
+                  </span>
+                   commented 
+                  last week
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <h3>
+                    Website or app
+                  </h3>
+                  
+
+                  <p>
+                    <a
+                      href="https://zhivika.ru/product/26406103_plastyr_perc_bperf_10smh18sm_n"
+                      rel="nofollow"
+                    >
+                      https://zhivika.ru/product/26406103_plastyr_perc_bperf_10smh18sm_n
+                    </a>
+                  </p>
+                  
+
+                  <h3>
+                    Repro steps
+                  </h3>
+                  
+
+                  <ol>
+                    
+
+                    <li>
+                      Load page.
+                    </li>
+                    
+
+                    <li>
+                      Open react components.
+                    </li>
+                    
+
+                    <li>
+                      Click button "Смотреть все аптеки" for unfold all list.
+                    </li>
+                    
+
+                  </ol>
+                  
+
+                  <h3>
+                    How often does this bug happen?
+                  </h3>
+                  
+
+                  <p>
+                    Every time
+                  </p>
+                  
+
+                  <h3>
+                    DevTools package (automated)
+                  </h3>
+                  
+
+                  <p>
+                    react-devtools-extensions
+                  </p>
+                  
+
+                  <h3>
+                    DevTools version (automated)
+                  </h3>
+                  
+
+                  <p>
+                    4.13.5-0ae5290b54
+                  </p>
+                  
+
+                  <h3>
+                    Error message (automated)
+                  </h3>
+                  
+
+                  <p>
+                    Cannot add node "476" because a node with that id is already in the Store.
+                  </p>
+                  
+
+                  <h3>
+                    Error call stack (automated)
+                  </h3>
+                  
+
+                  <p>
+                    <em>
+                      No response
+                    </em>
+                  </p>
+                  
+
+                  <h3>
+                    Error component stack (automated)
+                  </h3>
+                  
+
+                  <p>
+                    <em>
+                      No response
+                    </em>
+                  </p>
+                  
+
+                  <h3>
+                    GitHub query string (automated)
+                  </h3>
+                  
+
+                  <div
+                    class="snippet-clipboard-content position-relative"
+                    data-snippet-clipboard-copy-content="https://api.github.com/search/issues?q=Cannot add node  because a node with that id is already in the Store. in:title is:issue is:open is:public label:\\"Component: Developer Tools\\" repo:facebook/react
+"
+                  >
+                    <pre
+                      lang="text"
+                    >
+                      <code>
+                        https://api.github.com/search/issues?q=Cannot add node  because a node with that id is already in the Store. in:title is:issue is:open is:public label:"Component: Developer Tools" repo:facebook/react
+
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  last week
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    Hi 
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/Bodyhealer/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/Bodyhealer"
+                    >
+                      @Bodyhealer
+                    </a>
+                    . I'm no table to reproduce the error following the steps you've described.
+                  </p>
+                  
+
+                  <details
+                    class="details-reset border rounded-2"
+                    open=""
+                  >
+                    
+  
+                    <summary
+                      class="px-3 py-2 border-bottom"
+                    >
+                      
+    
+                      <svg
+                        aria-hidden="true"
+                        class="octicon octicon-device-camera-video"
+                        data-view-component="true"
+                        height="16"
+                        version="1.1"
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        
+    
+                        <path
+                          d="M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z"
+                          fill-rule="evenodd"
+                        />
+                        
+
+                      </svg>
+                      
+    
+                      <span
+                        aria-label="Video description bug-21636-repro-Kapture.2021-06-07.at.08.56.19.mp4"
+                        class="m-1"
+                      >
+                        bug-21636-repro-Kapture.2021-06-07.at.08.56.19.mp4
+                      </span>
+                      
+    
+                      <span
+                        class="dropdown-caret"
+                      />
+                      
+  
+                    </summary>
+                    
+
+  
+                    <video
+                      class="d-block rounded-bottom-2 width-fit"
+                      controls="controls"
+                      data-canonical-src="https://user-images.githubusercontent.com/29597/121020334-47ced780-c76e-11eb-8004-093dddedea3b.mp4"
+                      muted="muted"
+                      src="https://user-images.githubusercontent.com/29597/121020334-47ced780-c76e-11eb-8004-093dddedea3b.mp4"
+                      style="max-height:640px;"
+                    >
+                      
+
+  
+                    </video>
+                    
+
+                  </details>
+                  
+
+
+                  <p>
+                    Any suggestions?
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="rdcavanha"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/15946186?v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    rdcavanha
+                  </span>
+                   commented 
+                  2 days ago
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    I've got this error today as well on Firefox 89.
+                    <br />
+                    
+Adding to OP's report, this happens when refreshing the page while the dev console is open with the 
+                    <code>
+                      Components
+                    </code>
+                     tab shown (see screenshot). Not sure if it happens in other scenarios too.
+                  </p>
+                  
+
+                  <p>
+                    <a
+                      href="https://user-images.githubusercontent.com/15946186/121795165-8cca9200-cbe4-11eb-9f71-972ae97ee0b7.png"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="image"
+                        src="https://user-images.githubusercontent.com/15946186/121795165-8cca9200-cbe4-11eb-9f71-972ae97ee0b7.png"
+                        style="max-width:100%;"
+                      />
+                    </a>
+                  </p>
+                  
+
+                  <p>
+                    P.S.: Clicking on 
+                    <code>
+                      Dismiss
+                    </code>
+                     gets rid of the error and seems to show the components correctly again, but it shows up again if the page is refreshed.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  7 hours ago
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/rdcavanha/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/rdcavanha"
+                    >
+                      @rdcavanha
+                    </a>
+                     You're seeing this bug using OP's codebase? Or a different app?
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="rdcavanha"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/15946186?v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    rdcavanha
+                  </span>
+                   commented 
+                  39 minutes ago
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <blockquote>
+                    
+
+                    <p>
+                      <a
+                        class="user-mention"
+                        data-hovercard-type="user"
+                        data-hovercard-url="/users/rdcavanha/hovercard"
+                        data-octo-click="hovercard-link-click"
+                        data-octo-dimensions="link_type:self"
+                        href="https://github.com/rdcavanha"
+                      >
+                        @rdcavanha
+                      </a>
+                       You're seeing this bug using OP's codebase? Or a different app?
+                    </p>
+                    
+
+                  </blockquote>
+                  
+
+                  <p>
+                    Completely different app.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  in 15 hours
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/rdcavanha/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/rdcavanha"
+                    >
+                      @rdcavanha
+                    </a>
+                     Could you share your code then? 
+                    <em>
+                      I'm
+                    </em>
+                     still looking for a way to repro this issue.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="rdcavanha"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/15946186?v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    rdcavanha
+                  </span>
+                   commented 
+                  tomorrow
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    <a
+                      class="user-mention"
+                      data-hovercard-type="user"
+                      data-hovercard-url="/users/bvaughn/hovercard"
+                      data-octo-click="hovercard-link-click"
+                      data-octo-dimensions="link_type:self"
+                      href="https://github.com/bvaughn"
+                    >
+                      @bvaughn
+                    </a>
+                     Sorry, I can't share the code as it is a private repo.
+                  </p>
+                  
+
+                  <p>
+                    However, I've noticed that after I refreshed my Firefox profile the issue seems to be gone. I've tried using the React extension on the same app as before and was unable to reproduce the bug again.
+                  </p>
+                  
+
+                  <p>
+                    This leads me to believe that it's probably some sort of conflict with another extension (just a guess). Unfortunately I can't say which one exactly as I no longer have all the extensions installed due to the profile refresh. The fact that this has very low occurrence seems to support this idea of extension conflict as well.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="bvaughn"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/29597?u=417a1ec63c2396239beb9453aafdd54275c94765&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    bvaughn
+                  </span>
+                   commented 
+                  in 2 days
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    Thanks for the extra info.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              class="Comment__Wrapper-xexaqp-0 cpNdE"
+            >
+              <div
+                class="Comment__AvaterWrapper-xexaqp-1 iaSxhq"
+              >
+                <img
+                  alt="Romej"
+                  class="Comment__Avater-xexaqp-2 hNZBRk"
+                  src="https://avatars.githubusercontent.com/u/41510224?u=1f9529391466592d46e9c71b7a2141dd9cded5b9&v=4"
+                />
+              </div>
+              <div
+                class="Comment__Content-xexaqp-3 jOgPas"
+              >
+                <h2
+                  class="Comment__Heading-xexaqp-4 kmAKGr"
+                >
+                  <span>
+                    Romej
+                  </span>
+                   commented 
+                  in 2 days
+                </h2>
+                <div
+                  class="Comment__Body-xexaqp-5 kKKMYs"
+                >
+                  <p>
+                    [Win10 64-bit] [Firefox 89.0]
+                    <br />
+                    
+Got the issue today, you may be able to replicate it with the following steps :
+                  </p>
+                  
+
+                  <ol>
+                    
+
+                    <li>
+                      If the React devtools extension is installed, uninstall it
+                    </li>
+                    
+
+                    <li>
+                      Go on a web page that uses React and open the Firefox devtools
+                    </li>
+                    
+
+                    <li>
+                      In a new/different tab, install the React devtools extension
+                    </li>
+                    
+
+                    <li>
+                      Keep the Firefox devtools opened and refresh your page (CTRL + F5)
+                    </li>
+                    
+
+                    <li>
+                      Go to the Components tab
+                    </li>
+                    
+
+                  </ol>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <aside
+            class="CommentsWrapper__Aside-mz8bai-2 cfjbTi"
+          />
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+`;

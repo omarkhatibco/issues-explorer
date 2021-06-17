@@ -13,7 +13,7 @@ export const ItemContent: React.FC = () => {
 	return (
 		<Wrapper>
 			<TitleWrapper>
-				<Title>{title}</Title>
+				<Title data-testid='title'>{title}</Title>
 				<Labels />
 			</TitleWrapper>
 
