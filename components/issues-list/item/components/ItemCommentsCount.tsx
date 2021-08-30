@@ -11,6 +11,7 @@ export const ItemCommentsCount: React.FC = () => {
 	if (!totalCount || totalCount === 0) {
 		return null;
 	}
+
 	return (
 		<Wrapper title={totalCount === 1 ? '1 comment' : `${totalCount} comments`}>
 			<GoComment />
